@@ -1,15 +1,12 @@
 package gui;
 
-import java.awt.image.BufferedImage;
 import java.io.File;
-import java.util.concurrent.Callable;
 
 import javax.imageio.ImageIO;
 
 import org.opencv.core.Core;
 
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.concurrent.Task;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.EventHandler;
@@ -19,8 +16,6 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.ProgressIndicator;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.DragEvent;
@@ -34,7 +29,6 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import net.Classifier;
 import utils.BinaryImage;
 import utils.FeedProvider;
@@ -49,7 +43,6 @@ public class MainWindow extends Application {
 	
 	private ImageView imageToAnalyze;
 	private ImageView imageFromAnalysis;
-	private Button initializeNetButton;
 	private Button learnNetButton;
 	private Classifier classifier;
 	
@@ -68,37 +61,16 @@ public class MainWindow extends Application {
 	public void init() throws Exception {
 		
 		classifier = new Classifier();
-		
-		initializeNetButton = new Button("Initialize net");
 		learnNetButton = new Button("Enable learing");
-		
 		learnNetButton.setOnMouseClicked((e)-> {
-			if (!classifier.isNetInitialized()) {
-				Alert alert = new Alert(AlertType.ERROR, "Net is not initialized.", ButtonType.OK);
-				alert.showAndWait();
-				return;
-			}
 			disableNetButtons();
 			LongTaskProgressBar.executeLongTask("Initialize net...", new Task<Void>() {
 				@Override
 				protected Void call() throws Exception {
-					classifier.learn(20);
+					classifier.learn(2500);
 					return null;
 				}
 				
-			}, () -> {
-				enableNetButtons();
-				return null;
-			});
-		});
-		initializeNetButton.setOnMouseClicked((e)-> {
-			disableNetButtons();
-			LongTaskProgressBar.executeLongTask("Initialize net...", new Task<Void>() {
-				@Override
-				protected Void call() throws Exception {
-					classifier.initNet();
-					return null;
-				}
 			}, () -> {
 				enableNetButtons();
 				return null;
@@ -132,7 +104,6 @@ public class MainWindow extends Application {
 			imageFromAnalysis
 		);
 		HBox buttonsBox = new HBox(10, 
-			initializeNetButton,
 			learnNetButton
 		);
 		mainPane.getChildren().addAll(imagesBox, buttonsBox);
@@ -164,7 +135,8 @@ public class MainWindow extends Application {
 							File userFile = db.getFiles().get(0);
 							imageToAnalyze.setImage(ImageUtils.load(userFile));
 							
-							File result = classifier.classify(new BinaryImage(FeedProvider.loadAndPreprocessImage(userFile.getAbsolutePath())));
+							BinaryImage image = new BinaryImage(FeedProvider.loadAndPreprocessImage(userFile.getAbsolutePath()));
+							File result = classifier.classify(image);
 							if (result != null) {
 								imageFromAnalysis.setImage(ImageUtils.load(result));
 							} else {
@@ -188,12 +160,10 @@ public class MainWindow extends Application {
 	}
 	
 	public void enableNetButtons() {
-		this.initializeNetButton.setDisable(false);
 		this.learnNetButton.setDisable(false);
 	}
 	
 	public void disableNetButtons() {
-		this.initializeNetButton.setDisable(true);
 		this.learnNetButton.setDisable(true);
 	}
 	

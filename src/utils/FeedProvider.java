@@ -29,7 +29,7 @@ public class FeedProvider {
 			@Override
 			public FileVisitResult visitFile(Path path, BasicFileAttributes bfa) throws IOException {
 				paths.add(path.toFile().getCanonicalPath());
-				if (++i == 5) {
+				if (++i == 19) {
 					return FileVisitResult.TERMINATE;
 				}
 				return FileVisitResult.CONTINUE;

@@ -1,0 +1,5 @@
+SIP 6.11,2017
+
+- Zmniejszyć liczbę neuronów do liczności zbioru uczącego //lub tyle żeby się siatka zgadzała
+- Zimplementować regułę grosberga
+- no i heja
