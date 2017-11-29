@@ -1,6 +1,5 @@
 package gui;
 
-import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.Callable;
 
 import javafx.concurrent.Task;

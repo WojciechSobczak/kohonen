@@ -1,16 +1,20 @@
-package net;
+/*package deprecated;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.TreeSet;
 
-import utils.BinaryImage;
-import utils.Point;
+import core.Neuron;
+import core.geometry.Point;
+import core.geometry.Topology;
+import utils.NetImage;
 import utils.Settings;
 
 public class KohonensNet {
 	
 	private Neuron[][] neurons;
-	public KohonensNet(int images) {
+	
+	
+	public KohonensNet(Topology topology, int images) {
 		neurons = null;
 		int arraySize = (int) Math.ceil(Math.sqrt(images));
 		neurons = new Neuron[arraySize][arraySize];
@@ -21,26 +25,10 @@ public class KohonensNet {
 		}
 	}
 	
-	private class SortingPoint implements Comparable<SortingPoint>{
-		float value;
-		Point point;
-		public SortingPoint(float value, Point point) {
-			this.value = value;
-			this.point = point;
-		}
-		@Override
-		public int compareTo(SortingPoint s) {
-			return Float.compare(value, s.value);
-		}
-		@Override
-		public String toString() {
-			return "SortingPoint [value=" + value + ", point=" + point + "]";
-		}
-		
-	}
+	
 
-	public ArrayList<Point> feed(BinaryImage binaryImage) {
-		if (binaryImage.bytes.length != Settings.IMAGE_SIZE * Settings.IMAGE_SIZE) {
+	public ArrayList<Point> feed(NetImage binaryImage) {
+		if (binaryImage.binaryBytes.length != Settings.IMAGE_SIZE * Settings.IMAGE_SIZE) {
 			System.out.println("Invalid size of feed array");
 			return null;
 		}
@@ -49,7 +37,7 @@ public class KohonensNet {
 		
 		for (int i = 0; i < neurons.length; i++) {
 			for (int j = 0; j < neurons[i].length; j++) {
-				neurons[i][j].feed(binaryImage.bytes);
+				neurons[i][j].feed(binaryImage.binaryBytes);
 				treeSet.add(new SortingPoint(neurons[i][j].value, new Point(i, j)));
 				if (treeSet.size() > 10) {
 					treeSet.pollFirst();
@@ -151,3 +139,4 @@ public class KohonensNet {
 	}
 
 }
+*/

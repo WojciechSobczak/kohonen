@@ -8,9 +8,11 @@ import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+
+import javax.imageio.ImageIO;
 
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfPoint;
@@ -18,12 +20,15 @@ import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
+import core.geometry.NetImage;
+
 public class FeedProvider {
 	
-	public static HashMap<BinaryImage, File> loadFeed() throws IOException {
+	public static HashSet<NetImage> loadFeed() throws IOException {
 		System.out.println("Loading files...");
-		HashMap<BinaryImage, File> binaryImages = new  HashMap<BinaryImage, File>();
+		HashSet<NetImage> binaryImages = new HashSet<NetImage>();
 		List<String> paths = new LinkedList<>();
+		
 		Files.walkFileTree(Paths.get("./feed/"), new SimpleFileVisitor<Path>() {
 			private int i = 0;
 			@Override
@@ -38,7 +43,7 @@ public class FeedProvider {
 		
 		try {
 			for (String string : paths) {
-				binaryImages.put(new BinaryImage(loadAndPreprocessImage(string)), new File(string));
+				binaryImages.add(new NetImage(ImageUtils.load(new File(string)), loadAndPreprocessImage(string)));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -54,6 +59,10 @@ public class FeedProvider {
 	 */
 	public static Mat getOne() {
 		return loadAndPreprocessImage("./feed/nakazu/nakaz (1).png");
+	}
+	
+	public static NetImage load(String path) {
+		return new NetImage(ImageUtils.load(new File(path)), loadAndPreprocessImage(path));
 	}
 	
 	

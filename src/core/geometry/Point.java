@@ -1,4 +1,4 @@
-package utils;
+package core.geometry;
 
 public class Point {
 	public int x, y;

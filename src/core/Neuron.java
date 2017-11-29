@@ -1,4 +1,5 @@
-package net;
+package core;
+import java.util.Arrays;
 import java.util.Random;
 
 import utils.Settings;
@@ -6,7 +7,7 @@ import utils.Settings;
 public class Neuron {
 	
 	public float value;
-	float[] weights = new float[Settings.IMAGE_SIZE * Settings.IMAGE_SIZE];
+	public float[] weights = new float[Settings.IMAGE_SIZE * Settings.IMAGE_SIZE];
 	
 	public Neuron() {
 		Random random = new Random(System.nanoTime());
@@ -14,6 +15,7 @@ public class Neuron {
 			weights[i] = random.nextFloat();
 		}
 	}
+	
 	/**
 	 * bytes have to have 0 or 1 values
 	 * @param bytes
@@ -24,5 +26,11 @@ public class Neuron {
 			this.value += bytes[i] * weights[i];
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "Neuron [value=" + value + "]";
+	}
+	
 
 }

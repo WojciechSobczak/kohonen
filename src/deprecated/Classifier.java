@@ -1,4 +1,4 @@
-package net;
+/*package deprecated;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,12 +6,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
 
-import utils.BinaryImage;
+import core.geometry.Point;
+import utils.NetImage;
 import utils.FeedProvider;
-import utils.Point;
 
 public class Classifier {
 	
@@ -23,14 +21,14 @@ public class Classifier {
 	}
 	
 	public void learn(int loops) throws IOException {
-		HashMap<BinaryImage, File> loadedFeedMap = FeedProvider.loadFeed();
-		ArrayList<BinaryImage> feedList = new ArrayList<>(loadedFeedMap.keySet());
+		HashMap<NetImage, File> loadedFeedMap = FeedProvider.loadFeed();
+		ArrayList<NetImage> feedList = new ArrayList<>(loadedFeedMap.keySet());
 		this.kohonensNet = new KohonensNet(feedList.size());
 		this.classified = new HashMap<>();
 		HashSet<Point> winners = new HashSet<>();
 		for (int i = 0; i < loops; i++) {
 			//System.out.println((i + 1) + " learing loop of " + loops);
-			for (BinaryImage binaryImage : feedList) {
+			for (NetImage binaryImage : feedList) {
 				ArrayList<Point> points = this.kohonensNet.feed(binaryImage);
 				Point winner = null;
 				for (Point point : points) {
@@ -40,7 +38,7 @@ public class Classifier {
 						break;
 					}
 				}
-				this.kohonensNet.modifyWithWinner(winner, binaryImage.bytes, i + 1, loops);
+				this.kohonensNet.modifyWithWinner(winner, binaryImage.binaryBytes, i + 1, loops);
 				if (i == loops - 2) {
 					this.classified.put(winner, loadedFeedMap.get(binaryImage));
 				}
@@ -56,7 +54,7 @@ public class Classifier {
 		return this.kohonensNet != null;
 	}
 	
-	public File classify(BinaryImage image) {
+	public File classify(NetImage image) {
 		ArrayList<Point> points = this.kohonensNet.feed(image);
 		this.kohonensNet.eraseValues();
 		return this.classified.get(points.get(0));
@@ -64,3 +62,4 @@ public class Classifier {
 	
 
 }
+*/
