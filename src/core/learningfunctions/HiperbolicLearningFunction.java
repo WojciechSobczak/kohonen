@@ -1,16 +1,15 @@
 package core.learningfunctions;
 
-public class LineLearningFunction implements LearningFunction {
+public class HiperbolicLearningFunction implements LearningFunction {
 
 	@Override
 	public float learningCurve(int currentLoop, int allLoops) {
-		return 1 - ((float) (currentLoop - 1) / (float) allLoops);
+		return 1 / (float) currentLoop;
 	}
 	
-
 	@Override
 	public String toString() {
-		return "Line";
+		return "Hiperbolic";
 	}
 
 }

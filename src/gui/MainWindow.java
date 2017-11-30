@@ -39,6 +39,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import utils.FeedProvider;
 import utils.ImageUtils;
+import utils.Logger;
 import utils.Settings;
 
 public class MainWindow extends Application {
@@ -173,9 +174,6 @@ public class MainWindow extends Application {
 				protected Void call() throws Exception {
 					HashSet<NetImage> feed = FeedProvider.loadFeed();
 					switch (topologies.getValue()) {
-						case HEXAGON:
-							Alerts.info("Hex is not yet implemented.");
-							return null;
 						case LINE:
 							net = new LineNet(feed.toArray(new NetImage[0]));
 							break;
@@ -225,7 +223,7 @@ public class MainWindow extends Application {
 				}
 			} catch (Throwable e) {
 				e.printStackTrace();
-				System.out.println("Bad image!");
+				Logger.log("Bad image!");
 			} finally {
 				event.consume();
 			}

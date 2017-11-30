@@ -25,7 +25,7 @@ import core.geometry.NetImage;
 public class FeedProvider {
 	
 	public static HashSet<NetImage> loadFeed() throws IOException {
-		System.out.println("Loading files...");
+		Logger.log("Loading files...");
 		HashSet<NetImage> binaryImages = new HashSet<NetImage>();
 		List<String> paths = new LinkedList<>();
 		
@@ -49,7 +49,7 @@ public class FeedProvider {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Files loaded.");
+		Logger.log("Files loaded.");
 		return binaryImages;
 	}
 	
@@ -67,7 +67,7 @@ public class FeedProvider {
 	
 	
 	public static Mat loadAndPreprocessImage(String path) {
-		System.out.println("Loading: " + path);
+		Logger.log("Loading: " + path);
 		Mat image = Imgcodecs.imread(path);
 		Imgproc.resize(image, image, new Size(Settings.IMAGE_SIZE, Settings.IMAGE_SIZE));
 		Mat greyImage = new Mat(image.size(), image.type());

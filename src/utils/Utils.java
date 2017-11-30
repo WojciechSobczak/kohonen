@@ -40,7 +40,7 @@ public class Utils {
 		}
 	}
 	
-	public static void modyfyWeights(LearningFunction learningFunction, int currentLoop, int allLoops, NetImage input, Neuron winner, Neuron neuron) {
+	public static void modifyWeights(LearningFunction learningFunction, int currentLoop, int allLoops, NetImage input, Neuron winner, Neuron neuron) {
 		for (int i = 0; i < neuron.weights.length; i++) {
 			neuron.weights[i] += (neuron.value / winner.value) * learningFunction.learningCurve(currentLoop, allLoops) * (input.binaryBytes[i] - neuron.weights[i]);
 		}

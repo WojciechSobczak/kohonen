@@ -1,6 +1,5 @@
 package core.nets;
 
-import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -88,6 +87,11 @@ public abstract class Net {
 	public Image classify(NetImage binaryImage) {
 		ArrayList<Point> winners = this.feed(binaryImage);
 		return this.queses.get(winners.get(0)).sourceImage;
+	}
+	
+	public NetImage classifyNet(NetImage binaryImage) {
+		ArrayList<Point> winners = this.feed(binaryImage);
+		return this.queses.get(winners.get(0));
 	}
 	
 	public abstract Topology getTopology();

@@ -39,10 +39,10 @@ public class ConeReductor implements Reductor {
 			neurons[i].value = 0;
 		}
 		for (int i = 0; i < winnerIndex; i++) {
-			Utils.modyfyWeights(learningFunction, currentLoop, allLoops, input, neurons[winnerIndex], neurons[i]);
+			Utils.modifyWeights(learningFunction, currentLoop, allLoops, input, neurons[winnerIndex], neurons[i]);
 		}
 		for (int i = winnerIndex + 1; i < neurons.length; i++) {
-			Utils.modyfyWeights(learningFunction, currentLoop, allLoops, input, neurons[winnerIndex], neurons[i]);
+			Utils.modifyWeights(learningFunction, currentLoop, allLoops, input, neurons[winnerIndex], neurons[i]);
 		}
 	}
 
@@ -58,9 +58,9 @@ public class ConeReductor implements Reductor {
 		
 		final int neighbournessDistance = (int) Math.floor(radius);
 		int startx = Math.max(0, winnerIndex.x - neighbournessDistance);
-		int endx =  Math.max(0, winnerIndex.x + neighbournessDistance);
+		int endx =  Math.min(neurons.length - 1, winnerIndex.x + neighbournessDistance);
 		int starty = Math.max(0, winnerIndex.y - neighbournessDistance);
-		int endy = Math.max(0, winnerIndex.y + neighbournessDistance);
+		int endy = Math.min(neurons[0].length - 1, winnerIndex.y + neighbournessDistance);
 		
 		//Modyfikacja wag
 		for (int y = starty; y < endy; y++) {
@@ -68,7 +68,11 @@ public class ConeReductor implements Reductor {
 				if (winnerIndex.x == startx && winnerIndex.y == y) {
 					continue;
 				}
-				Utils.modyfyWeights(learningFunction, currentLoop, allLoops, input, winner, neurons[x][y]);
+				try {
+					Utils.modifyWeights(learningFunction, currentLoop, allLoops, input, winner, neurons[x][y]);
+				} catch (Exception e) {
+					System.out.println();
+				}
 			}
 		}
 		
@@ -102,6 +106,11 @@ public class ConeReductor implements Reductor {
 			int currentLoop, int allLoops, NetImage input) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public String toString() {
+		return "Cone";
 	}
 
 

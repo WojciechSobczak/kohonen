@@ -7,6 +7,7 @@ import core.Neuron;
 import core.geometry.NetImage;
 import core.geometry.Point;
 import core.geometry.Topology;
+import utils.Logger;
 import utils.Settings;
 import utils.Utils;
 
@@ -47,7 +48,7 @@ public class MeshNet extends Net {
 		if (winner != null) {
 			reductor.reduceMesh(neurons, winner, neighbournessRadius, learningFunction, currentLoop, learningLoops, image);
 		} else {
-			System.out.println("Something could gone wrong, maybe change radius of neighbours.");
+			Logger.log("Something could gone wrong, maybe change radius of neighbours.");
 		}
 		this.cleanValues();
 	}
@@ -64,6 +65,11 @@ public class MeshNet extends Net {
 				 this.neurons[i][j].value = 0;
 			}
 		}
+	}
+	
+	@Override
+	public String toString() {
+		return "Mesh";
 	}
 
 }
