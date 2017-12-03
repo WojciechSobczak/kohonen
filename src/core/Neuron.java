@@ -1,10 +1,11 @@
 package core;
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Random;
 
 import utils.Settings;
 
-public class Neuron {
+public class Neuron implements Serializable {
 	
 	public float value;
 	public float[] weights = new float[Settings.IMAGE_SIZE * Settings.IMAGE_SIZE];

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.TreeSet;
 
+import core.NetImage;
 import core.Neuron;
-import core.geometry.NetImage;
 import core.geometry.Point;
 import core.learningfunctions.LearningFunction;
 import core.nets.Net.SortingPoint;

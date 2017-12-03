@@ -1,7 +1,7 @@
 package core.reductors;
 
+import core.NetImage;
 import core.Neuron;
-import core.geometry.NetImage;
 import core.geometry.Point;
 import core.learningfunctions.LearningFunction;
 import utils.Utils;

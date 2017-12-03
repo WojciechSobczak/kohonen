@@ -1,9 +1,13 @@
 package core.nets;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 
-import core.geometry.NetImage;
+import core.NetImage;
 import core.geometry.Point;
 import core.geometry.Topology;
 import core.learningfunctions.LearningFunction;
@@ -20,6 +24,9 @@ public abstract class Net {
 	protected LearningFunction learningFunction;
 	protected NetImage[] feed;
 	protected int learningLoops;
+	
+	public abstract void offload(String path) throws FileNotFoundException, IOException;
+	public abstract void load(String path) throws FileNotFoundException, IOException;
 	
 	public static class SortingPoint implements Comparable<SortingPoint> {
 		public float value;
@@ -47,14 +54,16 @@ public abstract class Net {
 	}
 	
 	public void learn() {
+		ArrayList<NetImage> netImages = new ArrayList<NetImage>(Arrays.asList(feed));
 		for (int i = 0; i < learningLoops; i++) {
-			for (int j = 0; j < feed.length; j++) {
-				ArrayList<Point> winners = this.feed(feed[j]);
-				this.reduce(feed[j], winners, i);
+			for (NetImage netImage : netImages) {
+				ArrayList<Point> winners = this.feed(netImage);
+				this.reduce(netImage, winners, i);
 			}
 			if (i != learningLoops - 1) {
 				this.queses.clear();
 			}
+			Collections.shuffle(netImages);
 		}
 	}
 	
@@ -84,9 +93,9 @@ public abstract class Net {
 	 * @param binaryImage
 	 * @return
 	 */
-	public Image classify(NetImage binaryImage) {
+	public NetImage classify(NetImage binaryImage) {
 		ArrayList<Point> winners = this.feed(binaryImage);
-		return this.queses.get(winners.get(0)).sourceImage;
+		return this.queses.get(winners.get(0));
 	}
 	
 	public NetImage classifyNet(NetImage binaryImage) {

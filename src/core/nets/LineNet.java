@@ -1,12 +1,21 @@
 package core.nets;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.TreeSet;
 
+import core.NetImage;
 import core.Neuron;
-import core.geometry.NetImage;
 import core.geometry.Point;
 import core.geometry.Topology;
+import utils.FileUtils;
 import utils.Logger;
 import utils.Settings;
 import utils.Utils;
@@ -63,6 +72,26 @@ public class LineNet extends Net {
 	@Override
 	public String toString() {
 		return "Line";
+	}
+
+	@Override
+	public void offload(String path) throws FileNotFoundException, IOException {
+		ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(FileUtils.createFile(path)));
+		objectOutputStream.writeObject(neurons);
+		objectOutputStream.writeObject(queses);
+		objectOutputStream.close();
+	}
+
+	@Override
+	public void load(String path) throws FileNotFoundException, IOException {
+		ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(new File(path)));
+		try {
+			neurons = (Neuron[]) objectInputStream.readObject();
+			queses = (HashMap<Point, NetImage>) objectInputStream.readObject();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		objectInputStream.close();
 	}
 
 

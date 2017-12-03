@@ -7,7 +7,7 @@ import javax.imageio.ImageIO;
 
 import org.opencv.core.Core;
 
-import core.geometry.NetImage;
+import core.NetImage;
 import core.geometry.Topology;
 import core.nets.LineNet;
 import core.nets.MeshNet;
@@ -38,6 +38,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import utils.FeedProvider;
+import utils.FeedProvider.Type;
 import utils.ImageUtils;
 import utils.Logger;
 import utils.Settings;
@@ -172,7 +173,7 @@ public class MainWindow extends Application {
 			LongTaskProgressBar.executeLongTask("Initializing net...", new Task<Void>() {
 				@Override
 				protected Void call() throws Exception {
-					HashSet<NetImage> feed = FeedProvider.loadFeed();
+					HashSet<NetImage> feed = FeedProvider.loadFeed(Type.MANDATORY);
 					switch (topologies.getValue()) {
 						case LINE:
 							net = new LineNet(feed.toArray(new NetImage[0]));
@@ -214,9 +215,9 @@ public class MainWindow extends Application {
 					}
 					imageToAnalyze.setImage(userImage);
 					
-					Image result = net.classify(FeedProvider.load(userFile.getCanonicalPath()));
+					NetImage result = net.classify(FeedProvider.load(userFile));
 					if (result != null) {
-						imageFromAnalysis.setImage(result);
+						imageFromAnalysis.setImage(result.sourceImage);
 					} else {
 						imageFromAnalysis.setImage(NOTHING_IMAGE);
 					}
