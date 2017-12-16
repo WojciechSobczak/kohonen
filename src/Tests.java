@@ -64,18 +64,18 @@ public class Tests {
 	
 	
 	public static void main(String[] args) throws IOException {
-		HashSet<NetImage> feed = FeedProvider.loadFeed(FeedProvider.Type.MANDATORY);
-		Reductor[] reductors = {new ConeReductor()};
-		LearningFunction[] learningFunctions = {new LineLearningFunction(), new HiperbolicLearningFunction(), new SquareLearningFunction()};
-		float[] radiuses = {1};//, 2, 3, 4, 5};//, 6, 7, 8, 9, 10};
-		int[] loops = {10, 50};//, 100, 200, 500, 1000};//, 2000, 5000};
-		Net[] nets = {new LineNet(feed.toArray(new NetImage[0])), new MeshNet(feed.toArray(new NetImage[0]))};
-		System.out.println("------- PARAMETERS TESTS --------");
-		ArrayList<Result> results = parametersOptimizer(feed, reductors, learningFunctions, radiuses, loops, nets);
-		Net bestNet = results.get(0).net;
-		bestNet.offload(NET_OFFLOAD);
-		//Net bestNet = new MeshNet(feed.toArray(new NetImage[0]));
-		//bestNet.load(NET_OFFLOAD);
+		HashSet<NetImage> feed = FeedProvider.loadFeed();
+//		Reductor[] reductors = {new ConeReductor()};
+//		LearningFunction[] learningFunctions = {new LineLearningFunction(), new HiperbolicLearningFunction(), new SquareLearningFunction()};
+//		float[] radiuses = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//		int[] loops = {10, 50, 100, 200, 500, 1000, 2000, 5000};
+//		Net[] nets = {new LineNet(feed.toArray(new NetImage[0])), new MeshNet(feed.toArray(new NetImage[0]))};
+//		System.out.println("------- PARAMETERS TESTS --------");
+//		ArrayList<Result> results = parametersOptimizer(feed, reductors, learningFunctions, radiuses, loops, nets);
+//		Net bestNet = results.get(0).net;
+		Net bestNet = new MeshNet(feed.toArray(new NetImage[0]));
+		bestNet.load("C:\\Users\\Lama\\Desktop\\mandatory.net");
+//		bestNet.offload(NET_OFFLOAD);
 		System.out.println("------- BLUR TESTS --------");
 		blurTest(feed, bestNet);
 		System.out.println("------- DIRTY TESTS --------");

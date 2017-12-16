@@ -202,6 +202,12 @@ public class MainWindow extends Application {
 			Dragboard db = event.getDragboard();
 			try {
 				if (db.hasFiles()) {
+					if (db.getFiles().get(0).getCanonicalPath().endsWith(".net")) {
+						net = new MeshNet(FeedProvider.loadFeed().toArray(new NetImage[0]));
+						net.load(db.getFiles().get(0).getCanonicalPath());
+						Alerts.info("Net successfully loaded.");
+						return;
+					}
 					if (net == null) {
 						Alerts.error("Net is not initialized");
 						return;
