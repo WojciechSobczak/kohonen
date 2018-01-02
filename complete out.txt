@@ -1,0 +1,2899 @@
+------- PARAMETERS TESTS --------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.622449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6122449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.3469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.24489796
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.15306123
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.31632653
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.14285715
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6020408
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6530612
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.622449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.3265306
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 10
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.20408164
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 10
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.622449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.24489796
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.33673468
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6122449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.63265306
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.20408164
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6530612
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6122449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7244898
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.15306123
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7244898
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 50
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 50
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.74489796
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.622449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.75510204
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.1734694
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.2755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.622449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.24489796
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.24489796
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.63265306
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.30612245
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.3265306
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6122449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.24489796
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 100
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 100
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.30612245
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.20408164
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.29591838
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.30612245
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.13265306
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.2755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.78571427
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.18367347
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.29591838
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6530612
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.29591838
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 200
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 200
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6020408
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.74489796
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.29591838
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.30612245
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7653061
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.29591838
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.24489796
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.75510204
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.37755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7244898
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.3469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7244898
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.74489796
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.63265306
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.1734694
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.15306123
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 500
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 500
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.20408164
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6122449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.3877551
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.75510204
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2755102
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.29591838
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.25510204
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.3265306
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.622449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.74489796
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.1632653
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.64285713
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.1734694
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6530612
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 1000
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.18367347
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 1000
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7244898
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.20408164
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.74489796
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.36734694
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.23469388
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.75510204
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.30612245
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7244898
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.18367347
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.26530612
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.29591838
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6530612
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6020408
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6122449
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.15306123
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7244898
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.1734694
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.12244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.6530612
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 2000
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.1122449
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 2000
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.24489796
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 1.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.31632653
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 1.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.75510204
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.35714287
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 1.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.20408164
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 2.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.74489796
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.2857143
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 2.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.74489796
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.31632653
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 2.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6938776
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 3.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.1734694
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 3.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.71428573
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 3.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.21428572
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 4.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6632653
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.19387755
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 4.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.59183675
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.1632653
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 4.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.1122449
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 5.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.68367344
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.10204082
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 5.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.70408165
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.091836736
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 5.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.67346936
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.1122449
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 6.0
+ - learningFunction: Line
+ - reductor: Cone
+Effectiveness  is: 0.6530612
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.14285715
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 6.0
+ - learningFunction: Hiperbolic
+ - reductor: Cone
+Effectiveness  is: 0.7346939
+-------------------------------
+-------------------------------
+For:
+ - net: Line
+ - loops: 5000
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.12244898
+-------------------------------
+-------------------------------
+For:
+ - net: Mesh
+ - loops: 5000
+ - radius: 6.0
+ - learningFunction: Square
+ - reductor: Cone
+Effectiveness  is: 0.6020408
+-------------------------------
+
+RESULTS:
+Effectivness: 0.78571427, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 200
+Effectivness: 0.7653061, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 500
+Effectivness: 0.75510204, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 100
+Effectivness: 0.75510204, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 500
+Effectivness: 0.75510204, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 1000
+Effectivness: 0.75510204, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 2000
+Effectivness: 0.75510204, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 5000
+Effectivness: 0.74489796, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 100
+Effectivness: 0.74489796, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 500
+Effectivness: 0.74489796, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 500
+Effectivness: 0.74489796, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 1000
+Effectivness: 0.74489796, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 2000
+Effectivness: 0.74489796, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 5000
+Effectivness: 0.74489796, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 5000
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 50
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 50
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 200
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 200
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 200
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 500
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 1000
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 1000
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 1000
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 2000
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 2000
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 5000
+Effectivness: 0.7346939, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 5000
+Effectivness: 0.7244898, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 50
+Effectivness: 0.7244898, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 50
+Effectivness: 0.7244898, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 500
+Effectivness: 0.7244898, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 500
+Effectivness: 0.7244898, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 1000
+Effectivness: 0.7244898, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 2000
+Effectivness: 0.7244898, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 2000
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 50
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 100
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 100
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 200
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 200
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 2000
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 2000
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 2000
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 5000
+Effectivness: 0.71428573, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 5000
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 10
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 50
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 50
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 100
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 200
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 200
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 500
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 500
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 500
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 1000
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 1000
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 2000
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 2000
+Effectivness: 0.70408165, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 5000
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 10
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 10
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 10
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 50
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 50
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 100
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 100
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 100
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 100
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 100
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 200
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 500
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 500
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 1000
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 1000
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 1000
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 1000
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 5000
+Effectivness: 0.6938776, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 5000
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 10
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 10
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 200
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 200
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 200
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 200
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 500
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 5000
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 5000
+Effectivness: 0.68367344, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 5000
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 10
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 10
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 50
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 50
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 50
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 100
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 500
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 500
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 1000
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 1000
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 2000
+Effectivness: 0.67346936, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 5000
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 10
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 50
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 100
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 100
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 100
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 200
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 500
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 2000
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 2000
+Effectivness: 0.6632653, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 5000
+Effectivness: 0.6530612, Net: Mesh, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 10
+Effectivness: 0.6530612, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 50
+Effectivness: 0.6530612, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 200
+Effectivness: 0.6530612, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 1000
+Effectivness: 0.6530612, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 2000
+Effectivness: 0.6530612, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 2000
+Effectivness: 0.6530612, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 5000
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 10
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 10
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 10
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 50
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 200
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 200
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 500
+Effectivness: 0.64285713, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 1000
+Effectivness: 0.63265306, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 50
+Effectivness: 0.63265306, Net: Mesh, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 100
+Effectivness: 0.63265306, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 500
+Effectivness: 0.622449, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 10
+Effectivness: 0.622449, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 10
+Effectivness: 0.622449, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 10
+Effectivness: 0.622449, Net: Mesh, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 100
+Effectivness: 0.622449, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 100
+Effectivness: 0.622449, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 1000
+Effectivness: 0.6122449, Net: Mesh, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 10
+Effectivness: 0.6122449, Net: Mesh, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 50
+Effectivness: 0.6122449, Net: Mesh, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 50
+Effectivness: 0.6122449, Net: Mesh, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 100
+Effectivness: 0.6122449, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 1000
+Effectivness: 0.6122449, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 2000
+Effectivness: 0.6020408, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 10
+Effectivness: 0.6020408, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 200
+Effectivness: 0.6020408, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 2000
+Effectivness: 0.6020408, Net: Mesh, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 5000
+Effectivness: 0.59183675, Net: Mesh, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 5000
+Effectivness: 0.3877551, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 1000
+Effectivness: 0.37755102, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 500
+Effectivness: 0.36734694, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 2000
+Effectivness: 0.35714287, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 5000
+Effectivness: 0.3469388, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 10
+Effectivness: 0.3469388, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 500
+Effectivness: 0.33673468, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 50
+Effectivness: 0.3265306, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 10
+Effectivness: 0.3265306, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 100
+Effectivness: 0.3265306, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 1000
+Effectivness: 0.31632653, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 10
+Effectivness: 0.31632653, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 5000
+Effectivness: 0.31632653, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 5000
+Effectivness: 0.30612245, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 100
+Effectivness: 0.30612245, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 200
+Effectivness: 0.30612245, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 200
+Effectivness: 0.30612245, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 500
+Effectivness: 0.30612245, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 2000
+Effectivness: 0.29591838, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 200
+Effectivness: 0.29591838, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 200
+Effectivness: 0.29591838, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 200
+Effectivness: 0.29591838, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 500
+Effectivness: 0.29591838, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 500
+Effectivness: 0.29591838, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 1000
+Effectivness: 0.29591838, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 2000
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 10
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 10
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 10
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 50
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 50
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 50
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 100
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 200
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 200
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 500
+Effectivness: 0.2857143, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 5000
+Effectivness: 0.2755102, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 50
+Effectivness: 0.2755102, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 50
+Effectivness: 0.2755102, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 100
+Effectivness: 0.2755102, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 200
+Effectivness: 0.2755102, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 500
+Effectivness: 0.2755102, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 500
+Effectivness: 0.2755102, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 1000
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 10
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 10
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 50
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 100
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 100
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 200
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 200
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 500
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 1000
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 2000
+Effectivness: 0.26530612, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 2000
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 10
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 50
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 50
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 100
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 100
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 100
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 100
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 100
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 500
+Effectivness: 0.25510204, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 1000
+Effectivness: 0.24489796, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 10
+Effectivness: 0.24489796, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 50
+Effectivness: 0.24489796, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 100
+Effectivness: 0.24489796, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 100
+Effectivness: 0.24489796, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 100
+Effectivness: 0.24489796, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 500
+Effectivness: 0.24489796, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 5000
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 10
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 10
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 10
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 50
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 50
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 200
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 200
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 500
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 500
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 1000
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 1000
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 2000
+Effectivness: 0.23469388, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 2000
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 10
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 10
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 50
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 100
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 500
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 1000
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 1000
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 2000
+Effectivness: 0.2244898, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 2000
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 1.0, Loops: 50
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 50
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 50
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 100
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 100
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 500
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 500
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 1000
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 1000
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 2000
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 5000
+Effectivness: 0.21428572, Net: Line, Reductor: Cone, Function: Line, Radius: 4.0, Loops: 5000
+Effectivness: 0.20408164, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 10
+Effectivness: 0.20408164, Net: Line, Reductor: Cone, Function: Square, Radius: 2.0, Loops: 50
+Effectivness: 0.20408164, Net: Line, Reductor: Cone, Function: Square, Radius: 1.0, Loops: 200
+Effectivness: 0.20408164, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 1000
+Effectivness: 0.20408164, Net: Line, Reductor: Cone, Function: Line, Radius: 1.0, Loops: 2000
+Effectivness: 0.20408164, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 5000
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Line, Radius: 2.0, Loops: 200
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 200
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 200
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 1000
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 1000
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 2000
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 2000
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 5000
+Effectivness: 0.19387755, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 5000
+Effectivness: 0.18367347, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 4.0, Loops: 200
+Effectivness: 0.18367347, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 1000
+Effectivness: 0.18367347, Net: Line, Reductor: Cone, Function: Line, Radius: 3.0, Loops: 2000
+Effectivness: 0.1734694, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 2.0, Loops: 100
+Effectivness: 0.1734694, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 500
+Effectivness: 0.1734694, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 1000
+Effectivness: 0.1734694, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 2000
+Effectivness: 0.1734694, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 5000
+Effectivness: 0.1632653, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 1000
+Effectivness: 0.1632653, Net: Line, Reductor: Cone, Function: Square, Radius: 4.0, Loops: 5000
+Effectivness: 0.15306123, Net: Line, Reductor: Cone, Function: Square, Radius: 3.0, Loops: 10
+Effectivness: 0.15306123, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 50
+Effectivness: 0.15306123, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 500
+Effectivness: 0.15306123, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 2000
+Effectivness: 0.14285715, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 10
+Effectivness: 0.14285715, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 5000
+Effectivness: 0.13265306, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 3.0, Loops: 200
+Effectivness: 0.12244898, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 6.0, Loops: 2000
+Effectivness: 0.12244898, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 5000
+Effectivness: 0.1122449, Net: Line, Reductor: Cone, Function: Square, Radius: 6.0, Loops: 2000
+Effectivness: 0.1122449, Net: Line, Reductor: Cone, Function: Line, Radius: 5.0, Loops: 5000
+Effectivness: 0.1122449, Net: Line, Reductor: Cone, Function: Line, Radius: 6.0, Loops: 5000
+Effectivness: 0.10204082, Net: Line, Reductor: Cone, Function: Hiperbolic, Radius: 5.0, Loops: 5000
+Effectivness: 0.091836736, Net: Line, Reductor: Cone, Function: Square, Radius: 5.0, Loops: 5000
+------- BLUR TESTS --------
+For blur matrix size: 1, effectivness: 0.6020408
+For blur matrix size: 2, effectivness: 0.030612245
+For blur matrix size: 3, effectivness: 0.020408163
+For blur matrix size: 4, effectivness: 0.010204081
+For blur matrix size: 5, effectivness: 0.0
+For blur matrix size: 6, effectivness: 0.0
+For blur matrix size: 7, effectivness: 0.020408163
+For blur matrix size: 8, effectivness: 0.010204081
+For blur matrix size: 9, effectivness: 0.010204081
+For blur matrix size: 10, effectivness: 0.010204081
+------- DIRTY TESTS --------
+Snowball effectivness:0.8947368
+Random text effectivness:0.15789473
+Snow effectivness:0.0
+Confusing element effectivness:0.7894737
