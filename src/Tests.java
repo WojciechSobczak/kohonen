@@ -23,6 +23,7 @@ import core.reductors.ConeReductor;
 import core.reductors.Reductor;
 import javafx.scene.image.Image;
 import utils.FeedProvider;
+import utils.ImageUtils;
 
 public class Tests {
 	
@@ -74,12 +75,14 @@ public class Tests {
 //		ArrayList<Result> results = parametersOptimizer(feed, reductors, learningFunctions, radiuses, loops, nets);
 //		Net bestNet = results.get(0).net;
 		Net bestNet = new MeshNet(feed.toArray(new NetImage[0]));
-		bestNet.load("C:\\Users\\Lama\\Desktop\\mandatory.net");
+		bestNet.load("C:\\Users\\Lama\\Desktop\\best - Copy.net");
 //		bestNet.offload(NET_OFFLOAD);
 		System.out.println("------- BLUR TESTS --------");
 		blurTest(feed, bestNet);
 		System.out.println("------- DIRTY TESTS --------");
 		dirtyTest(bestNet);
+		
+		ImageUtils.showImage(FeedProvider.getOne());
 	}
 	
 	private static void dirtyTest(Net bestNet) throws IOException {
